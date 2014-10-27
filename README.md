@@ -1,75 +1,63 @@
-# [![Web Starter Kit](https://cloud.githubusercontent.com/assets/170270/3343034/ceef6e92-f899-11e3-96b9-5d9d69d97a00.png)](https://github.com/google/web-starter-kit/releases/latest)
+# Minimal Dart Webapp
 
-## Overview
+A starting point for a webapp built with Dart. This template
+is recommended if you don't want to, or
+cannot, use Polymer or AngularDart.
 
-[Web Starter Kit](http://developers.google.com/web/starter-kit) is an opinionated boilerplate for web development. Tools for building a great experience [across many devices](http://google.github.io/web-starter-kit/hello-world/) and [performance oriented](#web-performance). Helping you to stay productive following the best practices outlined in Google's [Web Fundamentals](http://developers.google.com/web/fundamentals). A solid starting point for both professionals and newcomers to the industry.
+This template features:
 
-[![](https://cloud.githubusercontent.com/assets/170270/3343033/ceee251e-f899-11e3-9dd9-e313cf2522ec.png)](https://developers.google.com/web/starter-kit/ 'Features')
+* Responsive web design, thanks to Web Starter Kit
+* CSS minification, thanks to Sass
+* Inlining scripts, thanks to `script_inliner`
+* Routing and views, thanks to `route_hierarchical`
+* Handling input, thanks to `dart:html`
 
-## Quickstart
+## Responsive
 
-[Download](https://github.com/google/web-starter-kit/releases/latest) the kit or clone this repository and build on what is included in the `app` directory.
+Thanks to Web Starter Kit, this template looks and acts great on
+mobile and desktop. Using the styles found in `web/styles`, you can
+be assured there is base support for phones, tablets, and laptops.
 
-There are two HTML starting points, from which you can choose:
+The `lib/nav_menu.dart` is required to trigger the menus when on a phone.
 
-- `index.html` - (IE10+) the default starting point, containing layout and a slide-out menu
-- `basic.html` - (IE8+) no layout, but still includes our minimal mobile best-practices
+## CSS minification
 
-Be sure to look over the [installation docs](docs/install.md) to verify your environment is prepared to run WSK.
-Once you have verified that your system can run WSK, check out the [commands](docs/commands.md) available to get started.
+Thanks to Sass, CSS or SCSS files imported by `web/styles/main.scss`
+are concantenated and minified during builds. The result is a small
+and fast-loading CSS file.
 
-## Web Performance
+Look in `pubspec.yaml` for the `sass` dependency. The Sass transformer
+does the work of converting Sass into CSS and minimizing it.
 
-Web Starter Kit strives to give you a high performance starting point out of the box and we actively work on delivering the best [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) score and frame-rate possible.
+## Inlining scripts
 
-In terms of CSS, opting to just use the minimal layout (main.css, h5bp.css) weighs in at ~7KB before modifications are made. Opting to use the Style Guide styles (the default) will take this up to ~39KB. It is your choice which path makes the most sense for your project, however notes on excluding Style Guide styles are in our gulpfile.
+To reduce the app startup time, this template inlines the `dart.js` file.
+During a build, the contents of `dart.js` are included in the `index.html`
+file.
 
-## Browser Support
+Look in `pubspec.yaml` for the `script_inliner` dependency and transformer.
 
-At present, we officially aim to support the following browsers:
+## Routing
 
-* IE9, IE10, IE11, IE Mobile 10
-* FF 30, 31
-* Chrome 34, 35
-* Safari 7, 8
-* Opera 23, 24
-* iOS Safari 7, 8
-* Opera Coast
-* Android / Chrome 4.4, 4.4.3
-* BlackBerry 10
+Any real app needs to deal with different views. _Routing_ is the technique
+of responding to changing in the URL and changing the view of the app.
 
-This is not to say that Web Starter Kit cannot be used in browsers older than those reflected, but merely that our focus will be on ensuring our layouts work great in the above.
+This template uses the `route_hierarchical` package. Look inside `main.dart`
+for the route setup. It's very easy to extend.
 
-## Web Starter Kit and [Bootstrap](http://getbootstrap.com) or other CSS libraries?
+Because this template isn't a full app framework (you should use
+AngularDart, Polymer, or other great options in http://pub.dartlang.org
+if you want a full app framework), the work of actually switching the views
+is simply changing the display properties of different divs. Look inside
+of `main.dart` for how different divs are displayed.
 
-Web Starter Kit doesn't aim to compete with CSS libraries like Bootstrap, Foundation and Pure. These libraries provide an excellent solution for prototyping your initial project. The biggest challenge they present is it’s almost too easy to get stuck using their look and feel for the lifetime of your site. We think this leads to a poorer experience on the multi-screen web.
+The authors of this template believe in routing, but do admit there are
+more scalable ways to manage views.
 
-Web Starter Kit provides boilerplate styles & a visual style guide for projects, but encourages customising these to fit your own site. This may need a little more work, but the reality is that any serious project is going to have its own look and feel. We want you to feel comfortable changing the kit to suit your own needs.
+## Handing input
 
-If you wish to use Bootstrap or other CSS libraries in your Web Starter Kit project, you have the flexibility to do so.
+Using `dart:html`, this template simply finds the necessary input fields
+via `querySelector` and binds to their keyUp events. Look inside
+`lub/reverser.dart` for an example.
 
-## Troubleshooting
-
-If you find yourself running into issues during installation or running the tools, please check our [Troubleshooting](https://github.com/google/web-starter-kit/wiki/Troubleshooting) guide and then open an [issue](https://github.com/google/web-starter-kit/issues). We would be happy to discuss how they can be solved.
-
-## A Boilerplate-only Option
-
-If you would prefer not to use any of our tooling, delete the following files from the project: `package.json`, `gulpfile.js`, `.jshintrc` and `.travis.yml`. You can now safely use the boilerplate with an alternative build-system or no build-system at all if you choose.
-
-## Extras
-
-Optional additions, such as web server configurations, can be found at [WSK Extras
-repository](https://github.com/google/web-starter-kit-extras).
-
-## Inspiration
-
-Web Starter Kit is inspired by [Mobile HTML5 Boilerplate](http://html5boilerplate.com/mobile/) and Yeoman's [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp), having taken input from contributors to both projects during development. Our [FAQs](https://github.com/google/web-starter-kit/wiki/FAQ) attempt to answer commonly asked questions about the project.
-
-## Contributing
-
-Contributions, questions and comments are all welcome and encouraged. For code contributions to Web Starter Kit, please see our [Contribution guide](CONTRIBUTING.md) before submitting a pull request. [Website](https://developers.google.com/web/starter-kit/) related issues should be filed on the [Web Fundamentals](https://github.com/google/WebFundamentals/issues/new) issue tracker.
-
-## License
-
-Apache 2.0  
-Copyright 2014 Google Inc
+However, a real app framework will offer robust data binding.
