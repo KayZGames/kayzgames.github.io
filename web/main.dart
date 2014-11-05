@@ -10,7 +10,7 @@ void main() {
 
   // Webapps need routing to listen for changes to the URL
 
-  var router = new Router();
+  var router = new Router(useFragment: true);
   router.root
     ..addRoute(name: 'about', path: '/about', enter: showAbout)
     ..addRoute(name: 'home', defaultRoute: true, path: '/', enter: showHome);
