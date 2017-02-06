@@ -6,7 +6,7 @@
 [![LD36](img/ld36.jpg)](https://kayzgames.github.io/ld36/)
 
 ### Ludum Dare 35 - Thema: Shapeshift (48 Stunden)
-[![LD35](img/ld35.jpg)](http://kayzgames.github.io/ld35/)
+[![LD35](img/ld35.jpg)](https://isowosi.github.io/shapeocalypse/)
 
 ##2015
 
