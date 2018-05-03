@@ -2,15 +2,15 @@
 
 ## 2018
 
-### Ludum Dare 38 - Theme: Combine 2 Incompatible Genres (48 hours)
+### Ludum Dare 41 - Theme: Combine 2 Incompatible Genres (48 hours)
 
 https://kayzgames.github.io/ld41/
 
-### One hour game jam - Theme: Moon (1 hour)
+### One hour game jam 143- Theme: Moon (1 hour)
 
 https://kayzgames.github.io/ohgj_143/
 
-### One hour game jam - Theme: Submerged (1 hour)
+### One hour game jam 142 - Theme: Submerged (1 hour)
 
 https://kayzgames.github.io/ohgj_142/
 
