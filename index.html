@@ -1,15 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>KayZGames list of GameJams</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="main.dart.js"></script>
-</head>
-<body>
-<games-list>
-    <loading-screen>Loading games</loading-screen>
-</games-list>
-</body>
+  <head>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <style>@import url(styles.css);</style>
+    <!--$-->
+    <title>KayZGames' GameJams</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="charset" content="utf-8"/>
+    <!--/-->
+  </head>
+  <body>
+    <games-list>
+      <game-component>
+        <h2 class="name">Beans for Atlas</h2>
+        <a class="preview" href="https://kayzgames.itch.io/beans-for-atlas" target="_blank"><img width="450" src="previews/minibeansjam6.jpg"/></a>
+        <div class="description">collect enough beans to leave the level, inspired by boulder dash</div>
+        <div class="jam">miniBeansjam 6 (2020 - 48 hours)</div>
+        <div class="theme">Theme: You move the world</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Rollercoaster Breakdown</h2>
+        <a class="preview" href="https://kayzgames.itch.io/rollercoaster-breakdown" target="_blank"><img width="450" src="previews/alakajam4.jpg"/></a>
+        <div class="description">the rollercoaster is breaking down, surivive as long as possible</div>
+        <div class="jam">Alakajam 4 (2018 - 48 hours)</div>
+        <div class="theme">Theme: Falling</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">4F - Faith, Forests, Fire and Floods</h2>
+        <a class="preview" href="https://kayzgames.github.io/ld38/" target="_blank"><img width="450" src="previews/ld41.jpg"/></a>
+        <div class="description">
+          a turn based, cellular automaton, god game where you use your powers to make the world more habitable (or not)
+        </div>
+        <div class="jam">Ludum Dare 38 (2017 - 48 hours)</div>
+        <div class="theme">Theme: A Small World</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Yet Another Lunar Lander</h2>
+        <a class="preview" href="https://kayzgames.github.io/ohgj_143/" target="_blank"><img width="450" src="previews/ohgj143.jpg"/></a>
+        <div class="description">land on the moon while avoiding UFOs</div>
+        <div class="jam">One hour game jam 143 (2018 - 1 hour)</div>
+        <div class="theme">Theme: Moon</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Treasure Diver</h2>
+        <a class="preview" href="https://kayzgames.github.io/ohgj_142/" target="_blank"><img width="450" src="previews/ohgj142.jpg"/></a>
+        <div class="description">dive into the sea and collect treasures</div>
+        <div class="jam">One hour game jam 142 (2018 - 1 hour)</div>
+        <div class="theme">Theme: Submerged</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Slimes in Panic</h2>
+        <a class="preview" href="https://kayzgames.github.io/ld38/" target="_blank"><img width="450" src="previews/ld38.jpg"/></a>
+        <div class="description">
+          a game where you build production buildings and connect them by roads while little slimes transport resources
+        </div>
+        <div class="jam">Ludum Dare 38 (2017 - 48 hours)</div>
+        <div class="theme">Theme: A Small World</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Chariot Arena Battle</h2>
+        <a class="preview" href="https://kayzgames.github.io/ld36/" target="_blank"><img width="450" src="previews/ld36.jpg"/></a>
+        <div class="description">
+          a multiplayer game where you battle other chariots by firing arrows at them (server no longer exists, game no working anymore)
+        </div>
+        <div class="jam">Ludum Dare 36 (2016 - 48 hours)</div>
+        <div class="theme">Theme: Ancient Technology</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Shapeocalypse</h2>
+        <a class="preview" href="https://isowosi.github.io/shapeocalypse/" target="_blank"><img width="450" src="previews/ld35.jpg"/></a>
+        <div class="description">
+          move through a tunnel changing colors to the music while changing your shape to fit through the correct exit (post compo version)
+        </div>
+        <div class="jam">Ludum Dare 35 (2016 - 48 hours)</div>
+        <div class="theme">Theme: Shapeshift</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Snowman Defense</h2>
+        <a class="preview" href="https://kayzgames.github.io/devmania_2015/" target="_blank"><img width="450" src="previews/devmania2015.jpg"/></a>
+        <div class="description">
+          a tower defense game where you need to defeat the snowmen who want to ruin christmas by stealing presents
+        </div>
+        <div class="jam">Devmania 2015 (2015 - 48 hours)</div>
+        <div class="theme">Theme: Winter (probably)</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Damacreat (Classic)</h2>
+        <a class="preview" href="https://kayzgames.itch.io/damacreat" target="_blank"><img width="450" src="previews/ld34.jpg"/></a>
+        <div class="description">consume stuff and grow</div>
+        <div class="jam">Ludum Dare 34 (2015 - 48 hours)</div>
+        <div class="theme">Theme: Two Button Controls, Growing</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">You are the (idle?) Monster!</h2>
+        <a class="preview" href="http://kayzgames.github.io/ld33/" target="_blank"><img width="450" src="previews/ld33.jpg"/></a>
+        <div class="description">
+          a game where you fight against players of an idle game who use more and more way to automate their game
+        </div>
+        <div class="jam">Ludum Dare 33 (2015 - 48 hours)</div>
+        <div class="theme">Theme: You are the Monster</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Swap to the Beat</h2>
+        <a class="preview" href="http://kayzgames.github.io/zfx_action_7/" target="_blank"><img width="450" src="previews/zfxaction7.jpg"/></a>
+        <div class="description">kind of a mix of tetris and match 3</div>
+        <div class="jam">ZFX Action 7 (2015 - 48 hours)</div>
+        <div class="theme">Theme: An indie game where you swap towers while bards write songs about you.</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Replay</h2>
+        <a class="preview" href="http://kayzgames.github.io/minild57/" target="_blank"><img width="450" src="previews/minild57.jpg"/></a>
+        <div class="description">move backwards in time and resurrect slain enemies to fix the timeline</div>
+        <div class="jam">Mini LD 57 (2015 - 7 days)</div>
+        <div class="theme">Theme: Reversed</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Triangles in Fear</h2>
+        <a class="preview" href="http://kayzgames.github.io/zfx_action_6/" target="_blank"><img width="450" src="previews/zfxaction6.jpg"/></a>
+        <div class="description">
+          avoid triangles until your ragemeter is full so you can destroy them. scream into your microphone to increase your rage even faster
+        </div>
+        <div class="jam">ZFX Action 6 (2015 - 48 hours)</div>
+        <div class="theme">Theme: An arcade game where you avoid triangles with your friends</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Opposing Worlds</h2>
+        <a class="preview" href="http://denniskaselow.github.io/ld30/pc/" target="_blank"><img width="450" src="previews/ld30.jpg"/></a>
+        <div class="description">
+          a turn based strategy game where you conquer castles and produce units fighting against 3 computer controlles enemies
+        </div>
+        <div class="jam">Ludum Dare 30 (2014 - 48 hours)</div>
+        <div class="theme">Theme: Connected Worlds</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Castle Engineer</h2>
+        <a class="preview" href="http://denniskaselow.github.io/ld29_beneath_the_surface/pc/" target="_blank"><img width="450" src="previews/ld29.jpg"/></a>
+        <div class="description">manually trigger traps from beneath the surface to prevent famous heroes from stealing your treasure</div>
+        <div class="jam">Ludum Dare 29 (2014 - 48 hours)</div>
+        <div class="theme">Theme: Beneath The Surface</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Gorilla</h2>
+        <a class="preview" href="https://denniskaselow.github.io/3hgj_banana/3hgj_banana.html" target="_blank"><img width="450" src="previews/3hgjbanana.jpg"/></a>
+        <div class="description">recreated stage creation of an old game (gorilla.bas)</div>
+        <div class="jam">3 Hour Game Jam (2014 - 3 hours)</div>
+        <div class="theme">Theme: Banana</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">3hgjwitch</h2>
+        <a class="preview" href="https://denniskaselow.github.io/3hgj_witch/3hgj_witch.html" target="_blank"><img width="450" src="previews/3hgjwitch.jpg"/></a>
+        <div class="description">simple fighting game between a witch and a tooth fairy</div>
+        <div class="jam">3 Hour Game Jam (2014 - 3 hours)</div>
+        <div class="theme">Theme: Witch</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Granny Loosetooth and the Toothfairies</h2>
+        <a class="preview" href="http://kayzgames.github.io/ld28/" target="_blank"><img width="450" src="previews/ld28.jpg"/></a>
+        <div class="description">use various food items to lead a granny to the dentist without losing her last tooth</div>
+        <div class="jam">Ludum Dare 28 (2013 - 48 hours)</div>
+        <div class="theme">Theme: You've Only Got One</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Ludum Dare 28 WarmUp</h2>
+        <a class="preview" href="http://kayzgames.github.io/ld28_warmup/ld28_warmup.html" target="_blank"><img width="450" src="previews/ld28warmup.jpg"/></a>
+        <div class="description">follow a light through fields made up using bezier curves</div>
+        <div class="jam">Ludum Dare 28 WarmUp (2013 - 48 hours)</div>
+        <div class="theme">Theme: -</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">Alien Attack</h2>
+        <a class="preview" href="http://kayzgames.github.io/ld27/ld27.html" target="_blank"><img width="450" src="previews/ld27.jpg"/></a>
+        <div class="description">a new feature activates every 10 seconds</div>
+        <div class="jam">Ludum Dare 27 (2013 - 48 hours)</div>
+        <div class="theme">Theme: 10 Seconds</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">20 Seconds</h2>
+        <a class="preview" href="http://kayzgames.github.io/ld26_minimalism/ld26_minimalism.html" target="_blank"><img width="450" src="previews/ld26.jpg"/></a>
+        <div class="description">switch between various minimalistic games every 20 seconds</div>
+        <div class="jam">Ludum Dare 26 (2013 - 48 hours)</div>
+        <div class="theme">Theme: Minimalism</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">LD26 Warmup</h2>
+        <a class="preview" href="http://kayzgames.github.io/ld26_warmup/ld26_warmup.html" target="_blank"><img width="450" src="previews/ld26warmup.jpg"/></a>
+        <div class="description">a simple bullet hell game</div>
+        <div class="jam">Ludum Dare 26 WarmUp (2013 - 48 hours)</div>
+        <div class="theme">Theme: -</div>
+      </game-component>
+      <game-component>
+        <h2 class="name">GitHub Space Off</h2>
+        <a class="preview" href="http://denniskaselow.github.io/game-off-2012/spaceoff.html" target="_blank"><img width="450" src="previews/gameoff2012.jpg"/></a>
+        <div class="description">Asteroids with elastic collisions between objects</div>
+        <div class="jam">Github GameOff 2012 (2012 - 30 days)</div>
+        <div class="theme">Theme: Push</div>
+      </game-component>
+    </games-list>
+  </body>
 </html>
