@@ -8,9 +8,12 @@ class App extends StatelessComponent {
   @override
   Component build(BuildContext context) {
     final gamesListService = ServiceProvider.of(context).gamesListService;
-    return .fragment([
-      for (final game in gamesListService.games) GameComponent(game),
-    ]);
+    return .element(
+      tag: 'games-list',
+      children: [
+        for (final game in gamesListService.games) GameComponent(game),
+      ],
+    );
   }
 }
 

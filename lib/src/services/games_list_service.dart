@@ -71,11 +71,11 @@ final _games = [
     description:
         'a turn based, cellular automaton, god game where you use your powers '
         'to make the world more habitable (or not)',
-    href: 'https://kayzgames.github.io/ld38/',
+    href: 'https://kayzgames.github.io/ld41/',
     gameJam: GameJam(
-      name: 'Ludum Dare 38',
-      theme: 'A Small World',
-      year: 2017,
+      name: 'Ludum Dare 41',
+      theme: 'Combine 2 Incompatible Genres',
+      year: 2018,
       duration: Duration(hours: 48),
     ),
   ),
