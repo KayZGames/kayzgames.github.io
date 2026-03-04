@@ -167,7 +167,7 @@ final _games = [
       name: 'Devmania 2015',
       theme: 'Winter (probably)',
       year: 2015,
-      duration: Duration(hours: 48),
+      duration: Duration(hours: 17),
     ),
   ),
   const Game(
