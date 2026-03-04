@@ -188,7 +188,7 @@ final _games = [
     description:
         'a game where you fight against players of an idle game '
         'who use more and more way to automate their game',
-    href: 'http://kayzgames.github.io/ld33/',
+    href: 'https://kayzgames.github.io/ld33/',
     gameJam: GameJam(
       name: 'Ludum Dare 33',
       theme: 'You are the Monster',
@@ -200,7 +200,7 @@ final _games = [
     id: 'zfxaction7',
     name: 'Swap to the Beat',
     description: 'kind of a mix of tetris and match 3',
-    href: 'http://kayzgames.github.io/zfx_action_7/',
+    href: 'https://kayzgames.github.io/zfx_action_7/',
     gameJam: GameJam(
       name: 'ZFX Action 7',
       theme:
@@ -216,7 +216,7 @@ final _games = [
     description:
         'move backwards in time and '
         'resurrect slain enemies to fix the timeline',
-    href: 'http://kayzgames.github.io/minild57/',
+    href: 'https://kayzgames.github.io/minild57/',
     gameJam: GameJam(
       name: 'Mini LD 57',
       theme: 'Reversed',
@@ -230,7 +230,7 @@ final _games = [
     description:
         'avoid triangles until your ragemeter is full so you can destroy them. '
         'scream into your microphone to increase your rage even faster',
-    href: 'http://kayzgames.github.io/zfx_action_6/',
+    href: 'https://kayzgames.github.io/zfx_action_6/',
     gameJam: GameJam(
       name: 'ZFX Action 6',
       theme: 'An arcade game where you avoid triangles with your friends',
@@ -247,7 +247,7 @@ final _games = [
     description:
         'a turn based strategy game where you conquer castles '
         'and produce units fighting against 3 computer controlles enemies',
-    href: 'http://denniskaselow.github.io/ld30/pc/',
+    href: 'https://denniskaselow.github.io/ld30/pc/',
     gameJam: GameJam(
       name: 'Ludum Dare 30',
       theme: 'Connected Worlds',
@@ -261,7 +261,7 @@ final _games = [
     description:
         'manually trigger traps from beneath the surface '
         'to prevent famous heroes from stealing your treasure',
-    href: 'http://denniskaselow.github.io/ld29_beneath_the_surface/pc/',
+    href: 'https://denniskaselow.github.io/ld29_beneath_the_surface/pc/',
     gameJam: GameJam(
       name: 'Ludum Dare 29',
       theme: 'Beneath The Surface',
@@ -302,7 +302,7 @@ final _games = [
     description:
         'use various food items to lead a granny to the dentist '
         'without losing her last tooth',
-    href: 'http://kayzgames.github.io/ld28/',
+    href: 'https://kayzgames.github.io/ld28/',
     gameJam: GameJam(
       name: 'Ludum Dare 28',
       theme: "You've Only Got One",
@@ -314,7 +314,7 @@ final _games = [
     id: 'ld28warmup',
     name: 'Ludum Dare 28 WarmUp',
     description: 'follow a light through fields made up using bezier curves',
-    href: 'http://kayzgames.github.io/ld28_warmup/ld28_warmup.html',
+    href: 'https://kayzgames.github.io/ld28_warmup/ld28_warmup.html',
     gameJam: GameJam(
       name: 'Ludum Dare 28 WarmUp',
       theme: '-',
@@ -326,7 +326,7 @@ final _games = [
     id: 'ld27',
     name: 'Alien Attack',
     description: 'a new feature activates every 10 seconds',
-    href: 'http://kayzgames.github.io/ld27/ld27.html',
+    href: 'https://kayzgames.github.io/ld27/ld27.html',
     gameJam: GameJam(
       name: 'Ludum Dare 27',
       theme: '10 Seconds',
@@ -338,7 +338,7 @@ final _games = [
     id: 'ld26',
     name: '20 Seconds',
     description: 'switch between various minimalistic games every 20 seconds',
-    href: 'http://kayzgames.github.io/ld26_minimalism/ld26_minimalism.html',
+    href: 'https://kayzgames.github.io/ld26_minimalism/ld26_minimalism.html',
     gameJam: GameJam(
       name: 'Ludum Dare 26',
       theme: 'Minimalism',
@@ -350,7 +350,7 @@ final _games = [
     id: 'ld26warmup',
     name: 'LD26 Warmup',
     description: 'a simple bullet hell game',
-    href: 'http://kayzgames.github.io/ld26_warmup/ld26_warmup.html',
+    href: 'https://kayzgames.github.io/ld26_warmup/ld26_warmup.html',
     gameJam: GameJam(
       name: 'Ludum Dare 26 WarmUp',
       theme: '-',
@@ -365,7 +365,7 @@ final _games = [
     id: 'gameoff2012',
     name: 'GitHub Space Off',
     description: 'Asteroids with elastic collisions between objects',
-    href: 'http://denniskaselow.github.io/game-off-2012/spaceoff.html',
+    href: 'https://denniskaselow.github.io/game-off-2012/spaceoff.html',
     gameJam: GameJam(
       name: 'Github GameOff 2012',
       theme: 'Push',
