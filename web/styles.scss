@@ -47,6 +47,10 @@ game-component {
   .preview {
     grid-area: preview;
     border-radius: 25px 45px 0 35px;
+    > img {
+      width: stretch;
+      max-width: 450px;
+    }
   }
 
   .name {
@@ -74,7 +78,7 @@ game-component {
 
 @media (max-width: 700px) {
   game-component {
-    grid-template-columns: 450px;
+    grid-template-columns: 93vw;
     grid-template-areas:
         "name"
         "jam"

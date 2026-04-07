@@ -28,7 +28,7 @@ class GameComponent extends StatelessComponent {
       h2(classes: 'name', [.text(game.name)]),
       a(
         classes: 'preview',
-        [img(src: 'previews/${game.id}.jpg', width: 450)],
+        [img(src: 'previews/${game.id}.jpg')],
         target: Target.blank,
         href: game.href,
       ),
